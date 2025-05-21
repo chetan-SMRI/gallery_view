@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-21 20:31:35.601297",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "html",
+  "doctypes"
+ ],
+ "fields": [
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "HTML",
+   "options": "<b>NOTE</b>\n<p>For each doctype listed in the table, ensure it includes a field named <strong>`custom_gallery_view`</strong> of type <strong>HTML</strong>; this field is required for the gallery to render properly.\n</p>\n<br>"
+  },
+  {
+   "fieldname": "doctypes",
+   "fieldtype": "Table",
+   "label": "Doctypes",
+   "options": "Gallery View Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-05-21 20:55:45.147933",
+ "modified_by": "Administrator",
+ "module": "Gallery View",
+ "name": "Gallery View Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
